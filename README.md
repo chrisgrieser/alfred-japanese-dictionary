@@ -26,7 +26,9 @@ words, and preview of dictionary sites.
 - Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
 
 ## Entry preview
-Install Alfred Extra Pane to display a preview of the entry's dictionary site.
+Install [Alfred Extra Pane](https://github.com/mr-pennyworth/alfred-extra-pane)
+to display a preview of the entry's dictionary site.
+
 <img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/703916b4-9f2e-4671-aa40-9af94497026a">
 
 ## Installation
