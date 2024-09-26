@@ -4,20 +4,44 @@
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-japanese-dictionary/total?label=Total%20Downloads&style=plastic)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-japanese-dictionary?label=Latest%20Release&style=plastic)
 
-Japanese-English Dictionary using jisho.org
+Japanese-English Dictionary using jisho.org with audio, csv export of
+words, and preview of dictionary sites.
 
-- [ ] Showcase image to be inserted here.
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/4368763d-68e8-4c59-a27c-5aee08cc22d9">
 
 ## Usage
-- ((Do this)) via the keyword `xxx`.
-- Press the [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/)
-  to ((do this))
+- Search for a word in English or in Japanese (Romaji, Kana, Kanji) via the
+  keyword `ji`.
+	+ <kbd>⏎</kbd> Copy the Japanese translation.
+	+ <kbd>⌘⏎</kbd> Open the word at jisho.org (or an alternative dictionary
+	  site).
+	+ <kbd>⌥⏎</kbd> Copy the URL to the entry at the selected dictionary site.
+	+ <kbd>⇧⏎</kbd> Play the Japanese audio pronunciation, with configurable
+	  speech rate.
+	+ <kbd>⌃⏎</kbd> Open the first "Read more" link of the entry in the browser.
+	+ <kbd>Fn⏎</kbd>: Append the entry to a .csv file (semicolon-separated).
+	  This is useful to import words into other tools, such as `Anki`.
+- Alternatively, you can also use the keyword `じ`. This triggers the same
+  search as `ji`. (`ji` must be followed by a space, `じ` does not require one.)
+- Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
+
+## Entry preview
+Install Alfred Extra Pane to display a preview of the entry's dictionary site.
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/703916b4-9f2e-4671-aa40-9af94497026a">
 
 ## Installation
+The workflow requires Alfred 5 with the
+[Powerpack](https://www.alfredapp.com/powerpack/) (A one-time paid upgrade.).
+
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-japanese-dictionary/releases/latest)
 
 When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
 workflow-update mechanism.
+
+## Credits
+- Kana cheatsheet by
+  [u/Moer_by](https://www.reddit.com/r/japaneseresources/comments/ilkott/hiragana_katakana_stroke_order_chart/).
+- Japanese dictionary API by [jisho.org](https://jisho.org/).
 
 <!-- vale Google.FirstPerson = NO -->
 ## About the developer
