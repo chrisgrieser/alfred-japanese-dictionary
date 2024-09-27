@@ -24,6 +24,7 @@ words, and preview of dictionary sites.
 - Alternatively, you can also use the keyword `じ`. This triggers the same
   search as `ji`. (`ji` must be followed by a space, `じ` does not require one.)
 - Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
+- Use the keyword `jg` to look for Japanese Grammar guides.
 
 ## Entry preview
 Install [Alfred Extra Pane](https://github.com/mr-pennyworth/alfred-extra-pane)
@@ -41,9 +42,9 @@ When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
 workflow-update mechanism.
 
 ## Credits
-- Kana cheatsheet by
-  [u/Moer_by](https://www.reddit.com/r/japaneseresources/comments/ilkott/hiragana_katakana_stroke_order_chart/).
+- Hiragana/Katakana chart by [u/Moer_by](https://www.reddit.com/r/japaneseresources/comments/ilkott/hiragana_katakana_stroke_order_chart/).
 - Japanese dictionary API by [jisho.org](https://jisho.org/).
+- Grammar Guides at [tofugu.com](https://tofugu.com/).
 
 <!-- vale Google.FirstPerson = NO -->
 ## About the developer
