@@ -34,10 +34,11 @@ function run() {
 				line.match(/<a href='\/japanese-grammar\/(.*)' title='View (.*)'>/) || [];
 			const url = htmlUrl + subsite;
 			const romaji = subsite.replaceAll("/", "").replaceAll("-", " ");
+			const displayName = name.replace("&#39;&#39;Don&#39;t...!&#39;&#39;", '"Don\'t…!"');
 
 			/** @type {AlfredItem} */
 			const alfredItem = {
-				title: name,
+				title: displayName,
 				match: alfredMatcher(name) + alfredMatcher(romaji),
 				arg: url,
 				quicklookurl: url,
@@ -46,5 +47,8 @@ function run() {
 			return alfredItem;
 		});
 
-	return JSON.stringify({ items: guides });
+	return JSON.stringify({
+		items: guides,
+		cache: { seconds: 60 * 60 * 24, loosereload: true },
+	});
 }
