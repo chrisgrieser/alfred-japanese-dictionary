@@ -5,9 +5,11 @@
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-japanese-dictionary?label=Latest%20Release&style=plastic)
 
 Japanese-English Dictionary using jisho.org with audio, csv export of
-words, and preview of dictionary sites.
+entries, and preview of dictionary sites.
 
-<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/4368763d-68e8-4c59-a27c-5aee08cc22d9">
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/f03cf307-3137-4d22-88e2-b0ebb716e92d">
+
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/d5dfeb1c-65dd-4ed5-8e2b-1175e452b309">
 
 ## Usage
 - Search for a word in English or in Japanese (Romaji, Kana, Kanji) via the
