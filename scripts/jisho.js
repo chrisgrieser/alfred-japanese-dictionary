@@ -45,6 +45,7 @@ function run(argv) {
 		const japWord = kanji || kana || "ERROR: Neither kanji nor kana found.";
 		const japDisplay = kanji && kana ? `${kanji} 【${kana}】` : japWord;
 		const engWord = senses.map((sense) => sense.english_definitions[0]).join(", ");
+		const wordType = "[" + senses[0].parts_of_speech.join(", ") + "]";
 
 		// properties
 		const properties = [];
@@ -66,10 +67,14 @@ function run(argv) {
 			.map((p) => '"' + p.replaceAll('"', '""') + '"') // quote
 			.join(","); // join with , separator
 
+		const subtitle = [engWord, wordType, readMoreLink ? "  " + readmoreIcon : ""]
+			.filter(Boolean)
+			.join("    ");
+
 		/** @type {AlfredItem} */
 		const alfredItem = {
 			title: japDisplay + "   " + propertiesDisplay,
-			subtitle: engWord + (readMoreLink ? "  " + readmoreIcon : ""),
+			subtitle: subtitle,
 			arg: japWord, // copy word
 			quicklookurl: url,
 			mods: {
