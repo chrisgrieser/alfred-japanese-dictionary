@@ -68,10 +68,10 @@ function run(argv) {
 		const alfredItem = {
 			title: japDisplay + "   " + propertiesDisplay,
 			subtitle: engWord + (readMoreLink ? "  " + readmoreIcon : ""),
-			arg: url,
+			arg: japWord, // copy word
 			quicklookurl: url,
 			mods: {
-				cmd: { arg: japWord }, // copy word
+				cmd: { arg: url }, // open dictionary url
 				alt: { arg: url }, // copy dictionary url
 				ctrl: {
 					valid: Boolean(readMoreLink),
