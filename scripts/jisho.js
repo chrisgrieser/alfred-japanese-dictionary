@@ -62,7 +62,9 @@ function run(argv) {
 		// more
 		const url = openAt + japWord;
 		const readMoreLink = senses.find((sense) => sense.links.length > 0)?.links[0];
-		const csvLine = [kanji || "", kana || "", engWord].join(";");
+		const csvLine = [kanji || "", kana || "", engWord]
+			.map((p) => '"' + p.replaceAll('"', '""') + '"') // quote
+			.join(","); // join with , separator
 
 		/** @type {AlfredItem} */
 		const alfredItem = {

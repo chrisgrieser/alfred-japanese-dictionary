@@ -19,7 +19,7 @@ words, and preview of dictionary sites.
 	+ <kbd>⇧⏎</kbd> Play the Japanese audio pronunciation, with configurable
 	  speech rate.
 	+ <kbd>⌃⏎</kbd> Open the first "Read more" link of the entry in the browser.
-	+ <kbd>Fn⏎</kbd>: Append the entry to a .csv file (semicolon-separated).
+	+ <kbd>Fn⏎</kbd>: Append the entry to a .csv file.
 	  This is useful to import words into other tools, such as `Anki`.
 - Alternatively, you can also use the keyword `じ`. This triggers the same
   search as `ji`. (`ji` must be followed by a space, `じ` does not require one.)
