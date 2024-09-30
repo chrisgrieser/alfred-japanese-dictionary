@@ -1,5 +1,5 @@
 <!-- LTeX: enabled=false -->
-# Alfred japanese dictionary
+# Alfred Japanese Dictionary
 <!-- LTeX: enabled=true -->
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-japanese-dictionary/total?label=Total%20Downloads&style=plastic)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-japanese-dictionary?label=Latest%20Release&style=plastic)
@@ -36,7 +36,7 @@ to display a preview of the entry's dictionary site.
 
 ## Installation
 The workflow requires Alfred 5 with the
-[Powerpack](https://www.alfredapp.com/powerpack/) (A one-time paid upgrade.).
+[Powerpack](https://www.alfredapp.com/powerpack/). (A one-time paid upgrade.)
 
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-japanese-dictionary/releases/latest)
 
