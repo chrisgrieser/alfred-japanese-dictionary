@@ -44,9 +44,9 @@ When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
 workflow-update mechanism.
 
 ## Credits
-- Hiragana/Katakana chart by [u/Moer_by](https://www.reddit.com/r/japaneseresources/comments/ilkott/hiragana_katakana_stroke_order_chart/).
-- Japanese dictionary API by [jisho.org](https://jisho.org/).
-- Grammar Guides at [tofugu.com](https://tofugu.com/).
+- Hiragana/Katakana chart by [u/Moer_by](https://www.reddit.com/r/japaneseresources/comments/ilkott/hiragana_katakana_stroke_order_chart/)
+- Japanese dictionary API by [jisho.org](https://jisho.org/)
+- Grammar Guides at [tofugu.com](https://tofugu.com/)
 
 <!-- vale Google.FirstPerson = NO -->
 ## About the developer
