@@ -345,7 +345,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>./scripts/jisho.js</string>
+				<string>./scripts/jisho-entry-selection.js</string>
 				<key>subtext</key>
 				<string>Dictionary</string>
 				<key>title</key>
@@ -417,7 +417,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>./scripts/jisho.js</string>
+				<string>./scripts/jisho-entry-selection.js</string>
 				<key>subtext</key>
 				<string>Dictionary</string>
 				<key>title</key>
@@ -467,7 +467,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>append-to-csv.sh</string>
+				<string>./scripts/append-to-csv.sh</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
