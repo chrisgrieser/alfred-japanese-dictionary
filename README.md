@@ -23,8 +23,9 @@ entries, and preview of dictionary sites.
 	+ <kbd>⌃⏎</kbd> Open the first "Read more" link of the entry in the browser.
 	+ <kbd>Fn⏎</kbd>: Append the entry to a .csv file.
 	  This is useful to import words into other tools, such as `Anki`.
-- Alternatively, you can also use the keyword `じ`. This triggers the same
-  search as `ji`. (`ji` must be followed by a space, `じ` does not require one.)
+	+ Alternatively, you can also use the keyword `じ` (`ji` must be followed by
+	  a space, `じ` does not require one), or use a
+	  [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/).
 - Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
 - Use the keyword `jg` to look for Japanese Grammar guides.
 
