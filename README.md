@@ -4,7 +4,7 @@
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-japanese-dictionary/total?label=Total%20Downloads&style=plastic)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-japanese-dictionary?label=Latest%20Release&style=plastic)
 
-Japanese-English Dictionary using jisho.org with audio, csv export of
+Japanese-English dictionary using `jisho.org` with audio, csv export of
 entries, and preview of dictionary sites.
 
 <img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/f03cf307-3137-4d22-88e2-b0ebb716e92d">
@@ -27,7 +27,7 @@ entries, and preview of dictionary sites.
 	  a space, `じ` does not require one), or use a
 	  [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/).
 - Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
-- Use the keyword `jg` to look for Japanese Grammar guides.
+- Use the keyword `jg` to look for Japanese grammar guides.
 
 ## Entry preview
 Install [Alfred Extra Pane](https://github.com/mr-pennyworth/alfred-extra-pane)
@@ -41,13 +41,12 @@ The workflow requires Alfred 5 with the
 
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-japanese-dictionary/releases/latest)
 
-When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
-workflow-update mechanism.
+The workflow auto-updates via Alfred's workflow-update mechanism.
 
 ## Credits
 - Hiragana/Katakana chart by [u/Moer_by](https://www.reddit.com/r/japaneseresources/comments/ilkott/hiragana_katakana_stroke_order_chart/)
 - Japanese dictionary API by [jisho.org](https://jisho.org/)
-- Grammar Guides at [tofugu.com](https://tofugu.com/)
+- Grammar guides at [tofugu.com](https://tofugu.com/)
 
 <!-- vale Google.FirstPerson = NO -->
 ## About the developer
