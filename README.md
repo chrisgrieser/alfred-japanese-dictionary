@@ -7,9 +7,9 @@
 Japanese-English dictionary using `jisho.org` with audio, csv export of
 entries, and preview of dictionary sites.
 
-<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/f03cf307-3137-4d22-88e2-b0ebb716e92d">
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/19d716ae-84a5-41e7-beb4-7d51d84d8155">
 
-<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/d5dfeb1c-65dd-4ed5-8e2b-1175e452b309">
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/2b1b4be5-c746-4824-8e77-ddbadc72b970">
 
 ## Usage
 - Search for a word in English or in Japanese (Romaji, Kana, Kanji) via the
