@@ -66,7 +66,11 @@ function run(argv) {
 			const propertiesDisplay = properties.join(" ").toUpperCase();
 
 			// subtitle
-			const subtitle = [engWord, `[${wordType}]`, readMoreLink ? "  " + readmoreIcon : ""]
+			const subtitle = [
+				engWord,
+				wordType ? `[${wordType}]` : null,
+				readMoreLink ? "  " + readmoreIcon : "",
+			]
 				.filter(Boolean)
 				.join("    ");
 
