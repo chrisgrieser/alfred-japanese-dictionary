@@ -14,18 +14,18 @@ entries, and preview of dictionary sites.
 ## Usage
 - Search for a word in English or in Japanese (Romaji, Kana, Kanji) via the
   keyword `ji`.
-	+ <kbd>⏎</kbd> Copy the Japanese translation.
-	+ <kbd>⌘⏎</kbd> Open the word at jisho.org (or an alternative dictionary
-	  site).
-	+ <kbd>⌥⏎</kbd> Copy the URL to the entry at the selected dictionary site.
-	+ <kbd>⇧⏎</kbd> Play the Japanese audio pronunciation, with configurable
-	  speech rate.
-	+ <kbd>⌃⏎</kbd> Open the first "Read more" link of the entry in the browser.
-	+ <kbd>Fn⏎</kbd>: Append the entry to a .csv file.
-	  This is useful to import words into other tools, such as `Anki`.
-	+ Alternatively, you can also use the keyword `じ` (`ji` must be followed by
-	  a space, `じ` does not require one), or use a
-	  [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/).
+    - <kbd>⏎</kbd> Copy the Japanese translation.
+    - <kbd>⌘⏎</kbd> Open the word at jisho.org (or an alternative dictionary
+      site).
+    - <kbd>⌥⏎</kbd> Copy the URL to the entry at the selected dictionary site.
+    - <kbd>⇧⏎</kbd> Play the Japanese audio pronunciation, with configurable
+      speech rate.
+    - <kbd>⌃⏎</kbd> Open the first "Read more" link of the entry in the browser.
+    - <kbd>Fn⏎</kbd>: Append the entry to a .csv file.
+      This is useful to import words into other tools, such as `Anki`.
+    - Alternatively, you can also use the keyword `じ` (`ji` must be followed by
+      a space, `じ` does not require one), or use a
+      [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/).
 - Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
 - Use the keyword `jg` to look for Japanese grammar guides.
 
