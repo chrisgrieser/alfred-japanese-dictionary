@@ -1,7 +1,6 @@
-# Alfred japanese dictionary
+# Alfred Japanese dictionary <!-- rumdl-disable-line MD063 -->
 ![GitHub downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-japanese-dictionary/total?label=GitHub%20Downloads&style=plastic&logo=github)
-![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-gallery-downloads.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query="jisho")
-
+![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-gallery-downloads.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=jisho)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-japanese-dictionary?label=Latest%20Release&style=plastic)
 
 Japanese-English dictionary using `jisho.org` with audio, `csv` export of
@@ -26,7 +25,7 @@ entries, and preview of dictionary sites.
     - Alternatively, you can also use the keyword `じ` (`ji` must be followed by
       a space, `じ` does not require one), or use a
       [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/).
-- Use the keyword `hiragana` or `katakana` to display a kana cheatsheet.
+- Use the keyword `hiragana` or `katakana` to display a kana cheat sheet.
 - Use the keyword `jg` to look for Japanese grammar guides.
 
 ## Entry preview
